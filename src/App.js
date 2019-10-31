@@ -32,15 +32,15 @@ class App extends Component {
             <h2>Markdown Input</h2>
             <br/>
             <form id="form" action="update">
-              <label for="inputbox"></label>
-              <textarea id="inputbox" type="textarea" onChange={this.handleChange} placeholder="Please Enter Markdown..."/>
+              <label for="editor"></label>
+              <textarea id="editor" type="textarea" onChange={this.handleChange} placeholder="Please Enter Markdown..."/>
             </form>
         </div>
 
         <div className="plate">
             <h2>Markdown Output</h2>
             <br/>
-            <div id="outputbox" dangerouslySetInnerHTML={ {__html: marked(this.state.markdown)} }>
+            <div id="preview" dangerouslySetInnerHTML={ {__html: marked(this.state.markdown)} }>
              
             </div>
         </div>
