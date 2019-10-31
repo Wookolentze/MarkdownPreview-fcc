@@ -37,7 +37,7 @@ header h3 {
   height: inherit;
 }
 
-#form #inputbox {
+#form #editor {
   display: block;
   width: 90%;
   min-height: 400px;
@@ -47,12 +47,12 @@ header h3 {
   background-color: rgba(211, 226, 242, 0.1);
 }
 
-#form #inputbox:focus {
+#form #editor:focus {
   outline: 0;
   background-color: rgba(211, 226, 242, 0.2);
 }
 
-#outputbox {
+#preview {
   width: 90%;
   min-height: 400px;
   padding: 5%;
