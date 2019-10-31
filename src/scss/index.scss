@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  body {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    background-color: rgb(1, 19, 38);
+  }
+  header{
+      margin-top: 30px;
+      h3{
+        color: chartreuse;
+      }
+  }
+  
+
+.App{
+    color: white;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+
+    .plate{
+        width: 40%;
+        height: 90%;
+        padding: 5%;
+        float: left;
+    }
+}
+//form package
+#form {
+    height: inherit;
+    #inputbox{
+        display: block;
+        width: 90%;
+        min-height: 400px;
+        padding: 5%;
+        border-radius: 30px;
+
+        color: chartreuse;
+        background-color: rgba(211, 226, 242, 0.1);
+
+    }#inputbox:focus{
+        outline: 0;
+        background-color: rgba(211, 226, 242, 0.2);
+    }
+}
+
+    #outputbox{
+        //display: block;
+        width: 90%;
+        min-height: 400px;
+        padding: 5%;
+        border-radius: 30px;
+
+        color: rgb(48, 48, 48);
+        background-color: rgba(211, 226, 242, 0.8);
+    }
